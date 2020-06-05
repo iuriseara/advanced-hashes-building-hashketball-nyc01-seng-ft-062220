@@ -1,4 +1,5 @@
 # Write your code here!
+require 'pry'
 
 def game_hash
   game_hash = {
@@ -14,8 +15,8 @@ def game_hash
                     :assists => 12,
                     :steals => 3,
                     :blocks => 1,
-                    :slam_dunks => 1
-                  },
+                    :slam_dunks => 1},
+
 
                   {:player_name => 'Reggie Evans',
                     :number => 30,
@@ -25,8 +26,8 @@ def game_hash
                     :assists => 12,
                     :steals => 12,
                     :blocks => 12,
-                    :slam_dunks => 7
-                  },
+                    :slam_dunks => 7},
+
 
                   {:player_name => 'Brook Lopez'
                     :number => 11,
@@ -36,8 +37,8 @@ def game_hash
                     :assists => 10,
                     :steals => 3,
                     :blocks => 1,
-                    :slam_dunks => 15
-                  },
+                    :slam_dunks => 15},
+
 
                   {:player_name => 'Manson Plumlee'
                     :number => 1,
@@ -47,8 +48,8 @@ def game_hash
                     :assists => 6,
                     :steals => 3,
                     :blocks => 8,
-                    :slam_dunks => 5
-                  },
+                    :slam_dunks => 5},
+
 
                   {:player_name => 'Jason Terry'
                     :number => 31,
@@ -58,9 +59,8 @@ def game_hash
                     :assists => 2,
                     :steals => 4,
                     :blocks => 11,
-                    :slam_dunks => 1
-                  }
-                ],
+                    :slam_dunks => 1}],
+                  
              },
     :away => {
       :team_name => 'Charlotte Hornets',
