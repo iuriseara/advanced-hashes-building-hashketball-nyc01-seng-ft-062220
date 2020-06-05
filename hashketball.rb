@@ -2,7 +2,7 @@
 require 'pry'
 
 def game_hash
-
+{
     home: {
       :team_name => 'Brooklyn Nets',
       :colors => ['Black', 'White'],
@@ -122,6 +122,6 @@ def game_hash
                           :slam_dunks => 12}]
 
 
-   }
-
+ }
+}
 end
